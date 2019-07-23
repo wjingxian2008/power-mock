@@ -18,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({TimeUnit.class})
-@SuppressStaticInitializationFor("SalaryCalculator")
+@SuppressStaticInitializationFor("com.github.wjingxian2008.utils.SalaryCalculator")
 public class PersonServiceTest {
 
     @InjectMocks
