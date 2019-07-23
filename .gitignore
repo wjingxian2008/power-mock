@@ -1,0 +1,12 @@
+
+# User-specific stuff
+*.iml
+*.DS_Store
+
+# IntelliJ
+.idea
+
+### Gradle ###
+.gradle
+build/
+out/
